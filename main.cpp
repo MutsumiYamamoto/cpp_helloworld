@@ -5,7 +5,7 @@ using namespace std;
 //Hello World: "Hello, World!" を標準出力に表示するプログラムを作成してください。
 //-------------------
 int main(){
-    std::cout << "Hello World! Everyone!" ;
+    std::cout << "Hello World! Everyone!!!!!!" ;
 }
 
 #if 0
