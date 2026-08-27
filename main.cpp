@@ -15,6 +15,8 @@ int main(){
     std::tm* local_tm = std::localtime(&now_c);           // ローカル時間に変換
     std::cout << "現在の時刻: " << std::put_time(local_tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
+
+    
 }
 
 
