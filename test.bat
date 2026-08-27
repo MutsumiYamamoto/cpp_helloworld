@@ -5,5 +5,5 @@ g++ --version
 g++ main.cpp -o main
 
 echo 'build is complete'
-./main
+
 exit /b %ERRORLEVEL%
