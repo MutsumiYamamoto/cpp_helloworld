@@ -4,6 +4,13 @@
 #include <iomanip>
 
 using namespace std;
+
+class Calc {
+public:
+    int add(int a,int b);
+};
+
+
 //-------------------
 //Hello World: "Hello, World!" を標準出力に表示するプログラムを作成してください。
 //-------------------
@@ -15,26 +22,15 @@ int main(){
     std::tm* local_tm = std::localtime(&now_c);           // ローカル時間に変換
     std::cout << "現在の時刻: " << std::put_time(local_tm, "%Y-%m-%d %H:%M:%S") << std::endl;
 
-
+    std::cout << "input a and b" << std::endl;
+    int a=0,b=0;
+    cin >> a >> b;
+    std::cout << a << "と" << b << "の計算結果: " << Calc().add(a,b) << std::endl;
     
 }
 
 
-
-
-
-
-
-
-
-
-
-#if 0
-#include <iostream>
-using namespace std;
-
-int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
+int Calc::add(int a,int b){
+//    return 0;
+    return a + b;    
 }
-#endif
