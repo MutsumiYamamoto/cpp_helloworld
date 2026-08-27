@@ -27,6 +27,7 @@ int main(){
     cin >> a >> b;
     std::cout << a << "と" << b << "の計算結果: " << Calc().add(a,b) << std::endl;
     
+    
 }
 
 
